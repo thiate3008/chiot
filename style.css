@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo {
+    /* Styles pour le logo */
+    float: left;
+    margin: 10px;
+}
+
+.main-section {
+    position: relative;
+    height: 100vh;
+    /*background-image: url("CHIOT.jpg");*/
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.rectangle {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 400px;
+    height: 500px;
+    background-color: green;
+    margin: 40px;
+    text-align: center;
+}
+
+.content {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: rgb(158, 145, 22);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bouton {
+    color: rgb(247, 211, 8);
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.monboutton {
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    color: green;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    background-color: black;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    text-align: right;
+
+}
+li{
+    float: left;
+}
+li a {
+    display: block ;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: roboto;
+    color: black;
+    text-align: right;
+}
+nav{
+    text-align: right;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin: 10px;
+    text-align: right;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 10px;
+}
+
+.logo-text h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.logo-text p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    float: right;
+}

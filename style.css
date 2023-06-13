@@ -1,22 +1,28 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    
-}
 
+}
+header{
+    justify-content: space-between;
+}
 .logo {
     /* Styles pour le logo */
     float: left;
-    margin: 10px;
+    margin: 5px;
+    padding: 10px;
 }
 
 .main-section {
-    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100vh;
     /*background-image: url("CHIOT.jpg");*/
     background-size: cover;
-    background-position: center;
-    
+    background-position: center; 
+    margin-bottom: 0;
 }
 
 .rectangle {
@@ -27,13 +33,14 @@ body{
     width: 400px;
     height: 500px;
     background-color: green;
-    margin: 40px;
+    margin: 70px;
     text-align: center;
 }
 
 h2 {
     color: white;
     text-align: center;
+    top: 50%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -42,12 +49,13 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 50px;
+    top: 50%;
 }
 
 p {
     color: white;
-    
     text-align: center;
+    top: 50%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -59,42 +67,44 @@ p {
 
 .monboutton {
     padding: 10px 15px 10px 15px;
-    background-color: white;
+    background-color: rgb(149, 165, 9);
     color: green;
     text-decoration: none;
 }
 
-.footer-content {
-    background-color: black;
-    text-align: center;
-    padding: 10px;
-}
-ul{
+
+
+ul {
     list-style: none;
     text-align: right;
 
 }
-li{
+
+li {
     float: left;
 }
+
 li a {
-    display: block ;
+    display: block;
     padding: 20px 15px;
     text-decoration: none;
     font-family: roboto;
     color: black;
     text-align: right;
 }
-nav{
+
+nav {
     text-align: right;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     float: right;
     margin: 10px;
     text-align: right;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -115,13 +125,13 @@ nav{
     padding: 0;
     margin: 0;
     float: right;
-    
+
 }
 
 .navbar ul li {
     display: inline-block;
     margin-right: 10px;
-    
+
 }
 
 .navbar ul li a {
@@ -130,14 +140,32 @@ nav{
     margin-right: 10px;
     float: right;
 }
+
 .naby {
-    width: 1350px;
-    height: 560px;
-  }
-  
-  .naby img {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.plein-ecran {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.naby img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+footer {
+    background-color: rgb(29, 27, 27);
+    padding: 70px;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+  }
+  .link{
+    top: 40px;
   }
   
